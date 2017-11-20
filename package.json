@@ -5,7 +5,7 @@
   "author": "Ivanov",
   "scripts": {
     "json:server": "json-server --watch db.json",
-    "dev": "nodemon server.js"
+    "dev": "nodemon src/server.js"
   },
   "license": "MIT",
   "dependencies": {
@@ -15,6 +15,12 @@
     "express-graphql": "^0.6.11",
     "graphql": "^0.11.7",
     "json-server": "^0.12.1",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "nodemon": "^1.12.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2016": "^6.24.1"
   }
 }
